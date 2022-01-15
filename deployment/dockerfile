@@ -1,0 +1,11 @@
+FROM node:16.13.2-alpine
+
+CMD ["mkdir","app"]
+
+WORKDIR /app
+
+COPY . .
+
+EXPOSE 41234 41234
+
+ENTRYPOINT [ "npm","start" ]

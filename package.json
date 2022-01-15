@@ -1,0 +1,26 @@
+{
+  "name": "js-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "bin":"lib/index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npx nodemon lib/index.js ",
+    "start": "node lib/index.js ",
+    "pkg": "npx pkg . --out-path=bin/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chankamlam/js-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chankamlam/js-blockchain/issues"
+  },
+  "homepage": "https://github.com/chankamlam/js-blockchain#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "pkg": "^5.5.2"
+  }
+}
