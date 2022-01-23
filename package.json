@@ -2,7 +2,7 @@
   "name": "js-blockchain",
   "version": "1.0.0",
   "description": "",
-  "bin":"lib/index.js",
+  "bin": "lib/index.js",
   "main": "lib/index.js",
   "scripts": {
     "test": "npx nodemon lib/index.js ",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "nodemon": "^2.0.15",
     "pkg": "^5.5.2"
+  },
+  "dependencies": {
+    "cryptojs": "^2.5.3"
   }
 }
